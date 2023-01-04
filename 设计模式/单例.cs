@@ -3,7 +3,7 @@ namespace for2023work.设计模式
 {
 	public class SingleTon
 	{
-		private static SingleTon _Instance;
+		private static SingleTon _Instance;  
 		private static Object o;
 
 		private SingleTon()
