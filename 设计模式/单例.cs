@@ -24,7 +24,7 @@ namespace for2023work.设计模式
 				}
 			}
 
-			return _Instance;
+			return _Instance; 
 
         }
 
