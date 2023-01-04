@@ -1,6 +1,4 @@
-﻿using for2023work.面向对象;
+﻿using for2023work.设计模式;
+using for2023work.面向对象;
 
-Animal animal = new Cat();
-var cat = animal as Cat;
-//运行时多态
-cat.ShowMyWeight();
+DecoratorModelDesign.Test();
