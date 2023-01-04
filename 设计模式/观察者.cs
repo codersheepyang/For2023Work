@@ -11,7 +11,7 @@ namespace for2023work.设计模式
 
 	}
 
-	public interface Subject
+	public interface Subject 
 	{
 		public void RegistObserver(Observcer o);
 		public void RemoveObserver(Observcer o);
