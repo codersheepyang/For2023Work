@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="面向对象\" />
+    <None Remove="设计模式\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="面向对象\" />
+    <Folder Include="设计模式\" />
+  </ItemGroup>
+</Project>
