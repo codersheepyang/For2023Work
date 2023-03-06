@@ -28,7 +28,9 @@ namespace for2023work.算法
                 return false;
             }
 
-			var personalName = _personalNames.FirstOrDefault(p => p.Equals(name)); 
+			//1
+			//2
+			var personalName = _personalNames.FirstOrDefault(p => p.Equals(name));      
 			if (personalName == null) return false;
 
 			_personalNames.Remove(personalName);
