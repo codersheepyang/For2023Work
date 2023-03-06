@@ -5,6 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AssemblyName>for2023work</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -18,10 +19,22 @@
     <None Remove="面向对象\" />
     <None Remove="设计模式\" />
     <None Remove="算法\" />
+    <None Remove="C#\" />
+    <None Remove="算法\GreedyAlgorithm\" />
+    <None Remove="算法\DynamicProgramming\" />
+    <None Remove="EF Core\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="面向对象\" />
     <Folder Include="设计模式\" />
     <Folder Include="算法\" />
+    <Folder Include="C#\" />
+    <Folder Include="算法\GreedyAlgorithm\" />
+    <Folder Include="算法\DynamicProgramming\" />
+    <Folder Include="EF Core\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
   </ItemGroup>
 </Project>
